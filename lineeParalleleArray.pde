@@ -11,6 +11,10 @@ void setup() {
   strokeWeight(3);
   frameRate(1);
 
+  initPosizioniX();
+}
+
+void initPosizioniX() {
   posizioniX = new int [nLinee]; // Creazione array
   for (int i = 0; i < nLinee; i++) {
     posizioniX [i]= xIniziale + i*deltaX + deltaX;
