@@ -12,6 +12,7 @@ void setup() {
   frameRate(1);
 
   initPosizioniX();
+  
 }
 
 void initPosizioniX() {
