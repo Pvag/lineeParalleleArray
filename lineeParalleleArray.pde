@@ -30,7 +30,7 @@ void linee() {
   for (int i = 0; i < nLinee; i++) {
     line(posizioniX[i], 0, posizioniX[i], height);
     // Cambia direzione
-      posizioniX[i] = posizioniX[i] + intervalloX;
+    posizioniX[i] = posizioniX[i] + intervalloX;
   }
   intervalloX = - intervalloX;
 }
